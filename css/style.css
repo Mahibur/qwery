@@ -355,7 +355,7 @@ footer .container .main .item2 .item-2-1 ul li a::before{
     content: '';
     left: 0;
     top: 100%;
-    border: 1px solid #FFC178;
+    border: .5px solid #FFC178;
     width: 0;
     opacity: 0;
     transition: .5s;
