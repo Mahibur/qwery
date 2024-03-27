@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+body{
+    background-color: #000000;
+}
+
+/* navbar part css goes here */
+
+nav{
+    margin-top: 28px;
+    position: absolute;
+    width: 100%;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+}
+nav .container .menu ul{
+    display: flex;
+    column-gap: 60px;
+}
+nav .container .menu ul li a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: capitalize;
+    transition: .4s;
+}
+nav .container .menu ul li a:hover{
+    color: #000000;
+}
+nav .container .menu ul li .active{
+    color: #000000;
+}
+
+/* banner part css goes here */
+
+#banner{
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 462px 0;
+}
+#banner .container p{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #FFC178;
+    margin-bottom: 38px;
+}
+#banner .container h1{
+    width: 860px;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+#banner .container h1 span{
+    font-weight: 400;
+    font-size: 88px;
+}
+
+/* about part css goes here */
+
+#about{
+    margin-top: 286px;
+}
+#about .container{
+    display: flex;
+    column-gap: 23px;
+}
+#about .container img{
+    margin-top: 33px;
+    margin-bottom: 63px;
+}
+#about .container .text{
+    padding-top: 78px;
+    padding-bottom: 168px;
+}
+#about .container .text h4{
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 6px;
+    color: #FBD784;
+    text-transform: uppercase;
+}
+#about .container .text h1{
+    width: 496px;
+    font-weight: 700;
+    font-size: 64px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 13px 0;
+}
+#about .container .text p{
+    width: 587px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 66px;
+}
+#about .container .text a{
+    font-weight: 700;
+    font-size: 18px;
+    color: #FBD784;
+    text-transform: uppercase;
+}
+#about .container .text a i{
+    opacity: 0;
+    transition: .4s;
+}
+#about .container .text a:hover i{
+    opacity: 1;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+/* work part css goes here */
+
+#work{
+    margin-top: 295px;
+}
+#work .container{
+    background: url(../images/work.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 559px;
+    padding-bottom: 33px;
+}
+#work .container .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#work .container .text h4{
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 6px;
+    color: #FBD784;
+    text-transform: uppercase;
+}
+#work .container .text h1{
+    width: 932px;
+    font-weight: 700;
+    font-size: 64px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 13px;
+    margin-bottom: 14px;
+}
+#work .container .text p{
+    width: 893px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 26px;
+}
+#work .container .text a{
+    font-weight: 700;
+    font-size: 18px;
+    color: #FBD784;
+    text-transform: uppercase;
+}
+#work .container .text a i{
+    opacity: 0;
+    transition: .4s;
+}
+#work .container .text a:hover i{
+    opacity: 1;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+/* culture part css goes here */
+
+#culture{
+    margin-top: 295px;
+}
+#culture .container{
+    display: flex;
+    justify-content: space-between;
+}
+#culture .container .text{
+    margin: 154px 0;
+}
+#culture .container .text h4{
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 6px;
+    color: #FBD784;
+    text-transform: uppercase;
+}
+#culture .container .text h1{
+    width: 663px;
+    font-weight: 700;
+    font-size: 64px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 19px 0;
+}
+#culture .container .text p{
+    width: 655px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 47px;
+}
+#culture .container .text a{
+    font-weight: 700;
+    font-size: 18px;
+    color: #FBD784;
+    text-transform: uppercase;
+}
+#culture .container .text a i{
+    opacity: 0;
+    transition: .4s;
+}
+#culture .container .text a:hover i{
+    opacity: 1;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+/* footer part goes here */
+
+footer{
+    margin-top: 190px;
+}
+footer .container .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .container .menu .logo img{
+    height: 48px;
+}
+footer .container .menu .item{
+    display: flex;
+    column-gap: 18px;
+    margin-right: 36px;
+    align-items: center;
+}
+footer .container .menu .item p{
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+}
+footer .container .menu .item button{
+    font-weight: 700;
+    font-size: 17px;
+    color: #000000;
+    text-transform: capitalize;
+    padding: 18px 67px;
+    border-radius: 10px;
+    background-color: #FFA343;
+    cursor: pointer;
+    transition: .4s;
+}
+footer .container .menu .item button:hover{
+    background-color: #f1a452;
+}
+footer .container .main{
+    margin-top: 59px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 137px;
+    margin-bottom: 153px;
+}
+footer .container .main .item1 h1{
+    width: 405px;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    color: #ffffff;
+    margin-top: 23px;
+    text-transform: capitalize;
+}
+footer .container .main .item1 p{
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    color: #ffffff;
+    margin-top: 48px;
+    margin-bottom: 35px;
+    text-transform: capitalize;
+}
+footer .container .main .item1 h6 i{
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 29px;
+    transition: .4s;
+}
+footer .container .main .item1 h6 i:hover{
+    color: #FBD784;
+}
+footer .container .main .item2{
+    display: flex;
+    column-gap: 84px;
+}
+footer .container .main .item2 .item-2-1:last-child{
+    margin-left: 55px;
+}
+footer .container .main .item2 .item-2-1 ul li{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: -0.2px;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+footer .container .main .item2 .item-2-1 ul li:first-child{
+    color: #FFD1A0;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -0.23px;
+    margin-bottom: 11px;
+    text-transform: capitalize;
+}
+footer .container .main .item2 .item-2-1 ul li a{
+    color: #ffffff;
+    position: relative;
+}
+footer .container .main .item2 .item-2-1 ul li a::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 100%;
+    border: 1px solid #FFC178;
+    width: 0;
+    opacity: 0;
+    transition: .5s;
+}
+footer .container .main .item2 .item-2-1 ul li a:hover::before{
+    width: 100%;
+    opacity: 1;
+}
+footer .container .copy{
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 32px;
+}
